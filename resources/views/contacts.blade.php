@@ -5,3 +5,6 @@
 
 @endsection
 
+@section('title')
+    CONTACTS
+@endsection

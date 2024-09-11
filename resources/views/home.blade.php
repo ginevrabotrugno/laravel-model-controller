@@ -5,4 +5,6 @@
 
 @endsection
 
-
+@section('title')
+    HOME
+@endsection
