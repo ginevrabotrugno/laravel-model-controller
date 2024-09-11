@@ -3,6 +3,8 @@
 
 @section('content')
 
+@dump($movies)
+
 @endsection
 
 @section('title')
