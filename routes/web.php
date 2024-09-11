@@ -23,4 +23,6 @@ Route::get('/about', [PageController::class, 'about'])->name('about');
 
 Route::get('/contacts', [PageController::class, 'contacts'])->name('contacts');
 
+Route::get('/movie-details', [PageController::class, 'movieDetails'])->name('movieDetails');
+
 

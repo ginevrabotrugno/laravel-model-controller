@@ -33,4 +33,8 @@ class PageController extends Controller
         return view('contacts');
     }
 
+    public function movieDetails(){
+        return view('movieDetails');
+    }
+
 }
