@@ -11,14 +11,18 @@ class PageController extends Controller
 
         $movies = Movie::orderBy('title')->get();
 
-        return view('home', compact('movies'));
+        $title = 'HOME';
+
+        return view('home', compact('movies', 'title'));
     }
 
     public function bestMovies(){
 
         $movies = Movie::where('vote', '>', 9)->orderBy('vote', 'desc')->get();
 
-        return view('home', compact('movies'));
+        $title = 'BEST MOVIES';
+
+        return view('home', compact('movies', 'title'));
     }
 
     public function about(){

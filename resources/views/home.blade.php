@@ -4,7 +4,7 @@
 @section('content')
 
 <h1 class="text-center">
-    HOME
+    {{ $title }}
 </h1>
 
 <div class="container d-flex justify-content-between flex-wrap">
