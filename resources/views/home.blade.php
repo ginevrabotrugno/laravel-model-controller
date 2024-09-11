@@ -20,6 +20,7 @@
                 <li class="list-group-item"><strong>Nazionalità: </strong> {{ $movie->nationality }} </li>
                 <li class="list-group-item"><strong>Voto: </strong> {{ $movie->vote }} </li>
             </ul>
+            <a href=" {{route('movieDetails', ['id' => $movie->id])}} " class="btn btn-primary">DETTAGLI</a>
         </div>
 
 

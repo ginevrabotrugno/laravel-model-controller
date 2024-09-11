@@ -33,8 +33,11 @@ class PageController extends Controller
         return view('contacts');
     }
 
-    public function movieDetails(){
-        return view('movieDetails');
+    public function movieDetails($id){
+
+        $movie = Movie::find($id);
+
+        return view('movieDetails', compact('movie'));
     }
 
 }
