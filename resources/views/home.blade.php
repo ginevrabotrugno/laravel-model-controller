@@ -3,7 +3,15 @@
 
 @section('content')
 
-@dump($movies)
+{{-- @dump($movies) --}}
+
+<h1 class="text-center">
+    HOME
+</h1>
+
+<div class="container-lg text-center">
+
+</div>
 
 @endsection
 
