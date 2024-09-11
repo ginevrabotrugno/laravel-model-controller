@@ -16,6 +16,9 @@
               <li class="nav-item">
                 <a class="nav-link" href=" {{ route('contacts') }} ">Contacts</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href=" {{ route('bestMovies') }} ">Best Movies</a>
+              </li>
             </ul>
           </div>
         </div>
